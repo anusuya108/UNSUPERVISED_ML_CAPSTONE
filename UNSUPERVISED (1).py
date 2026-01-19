@@ -14,7 +14,7 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.arima.model import ARIMA
 
 st.set_page_config(page_title="End-to-End Data Science Use Cases", layout="wide")
-st.title("?? End-to-End Data Science Use Cases Dashboard")
+st.title(" End-to-End Data Science Use Cases Dashboard")
 
 tabs = st.tabs([
     "Use Case 1: PCA",
