@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
-from sklearn.discriminant_analysis import LiYSr4KS8aniprJvmct1CJfoVGgKnEGSjs
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.metrics import confusion_matrix, silhouette_score, mean_squared_error
 
 from statsmodels.tsa.statespace.sarimax import SARIMAX
