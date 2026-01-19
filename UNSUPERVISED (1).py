@@ -73,7 +73,7 @@ with tabs[1]:
 with tabs[2]:
     st.header("Use Case 3: RFM + LDA")
 
-    df = pd.read_csv("online_retail_II.csv")
+    df = pd.read_csv("compressed_data.csv.gz")
     df = df.dropna(subset=["Customer ID"])
     df = df[~df["Invoice"].str.startswith("C")]
     df = df[(df["Quantity"] > 0) & (df["Price"] > 0)]
