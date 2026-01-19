@@ -98,7 +98,7 @@ with tabs[2]:
     y = rfm["Segment"]
 
     X_scaled = StandardScaler().fit_transform(X)
-    lda = LiYSr4KS8aniprJvmct1CJfoVGgKnEGSjs()
+    lda = LinearDiscriminantAnalysis()
     lda.fit(X_scaled, y)
 
     preds = lda.predict(X_scaled)
